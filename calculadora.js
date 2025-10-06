@@ -1,5 +1,5 @@
 /* LOGIN */ 
-/* function verificacionEmail(email){
+function verificacionEmail(email){
     return /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g.test(email)
     }
 
@@ -8,7 +8,7 @@ function verificacionPasssword(password){
     }
     /* TRADUCIR Y ESCRIBIR EN EL CUADERNO QUE SIGNIFICA ESE RETOURN */
 
-/* function obtenerEmail(){
+function obtenerEmail(){
     let email = prompt('ingrese su email')
     while(!verificacionEmail(email)){
         email = prompt('Incorrecto, por favor ingrese su email')
@@ -25,13 +25,13 @@ function obtenerPassword(){
     return password
 }
     obtenerEmail()
-    obtenerPassword()  */
+    obtenerPassword() 
 
 
     /* CALCULOS */
 
 
-/*     function operacionNumero1(){
+    function operacionNumero1(){
     let numero1 = prompt('Ingrese un numero')
     while (!numero1 || isNaN(numero1)){
         numero1 = prompt ('ERROR:ingrese un numero')
@@ -78,7 +78,7 @@ return resultado
 const numero1= operacionNumero1()
 const signo= operacionSigno()
 const numero2= operacionNumero2()
-operaciones(numero1, signo, numero2); */
+operaciones(numero1, signo, numero2);
 
 /* HISTORIAL */
 
